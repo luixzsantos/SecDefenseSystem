@@ -4,7 +4,7 @@ from defense.decision_engine import decide
 from defense.response_system import respond
 model = OnlineDefensiveModel()
 
-print("🛡️ Sistema Defensivo Online iniciado...\n")
+print(" Sistema Defensivo Online iniciado...\n")
 
 for X, y in stream_data():
 
